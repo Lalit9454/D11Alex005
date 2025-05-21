@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Team Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cricket Team Generator (Prototype)</h1>
+        
+        <div class="match-info">
+            <h2>Match: TeamX vs TeamY (Demo)</h2>
+            <p>Budget: 100 Credits</p>
+        </div>
+
+        <button id="generateTeamBtn">Generate My Team</button>
+
+        <div class="team-display">
+            <h2>Your Generated Team:</h2>
+            <ul id="teamList">
+                <!-- Team members will be listed here -->
+            </ul>
+            <p><strong>Captain (C):</strong> <span id="captain">--</span></p>
+            <p><strong>Vice-Captain (VC):</strong> <span id="viceCaptain">--</span></p>
+            <p><strong>Total Credits Used:</strong> <span id="totalCreditsUsed">0</span></p>
+        </div>
+    </div>
+
+    <script src="players.js"></script> <!-- Player data first -->
+    <script src="script.js"></script>   <!-- Logic script after -->
+</body>
+</html
